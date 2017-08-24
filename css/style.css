@@ -1,0 +1,20 @@
+body{margin: 0px; padding: 0px; font-family: 'Lato', sans-serif;}
+a, a:hover, a:focus{text-decoration: none; outline: 0px;}
+li{list-style: none; float: left;}
+ul{margin: 0px; padding: 0px; font-size: 0px;}
+p{font-size: 14px;}
+
+
+.head-top-section {    border-bottom: 1px solid #e4e4e4;    float: left;    padding: 20px 0;    width: 100%;}
+.language-input {    display: inline-block;}
+.login-btn{float: right;}
+.language-input p{display: inline-block;}
+.language-input a{color: #1abc9c;}
+.nav-left a,.nav-right a {    font-size: 15px;    padding: 0 20px; text-transform: uppercase; color: #2c3e50;}
+.nav-left a:hover,.nav-right a:hover{color: #1abc9c;}
+.nav-sec {    float: left;    text-align: center;    width: 100%;}
+.logo {    float: left;    left: 50%;    position: absolute;    text-align: center;    transform: translate(-50%, -50%); top: 50%;}
+.nav-left {    display: inline-block;    padding-right: 130px;}
+.nav-right {    display: inline-block;    padding-left: 130px;}
+.header-logo-section {    float: left;    width: 100%; padding: 20px 0; border-bottom: 1px solid #e4e4e4; position: relative;}
+.language-input select {    border: 0 none;    display: inline-block;    margin: 0 10px;}
