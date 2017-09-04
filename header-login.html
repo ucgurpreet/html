@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <title>logotees</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdownTimer.css">
+    <link rel="stylesheet" type="text/css" href="css/meanmenu.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+<div class="pop-login">
+	<div class="pop-inner">
+		<input type="email" name="email" placeholder="Email">	
+		<input type="pssword" name="password" placeholder="password">
+		<span class="checkbox"><input type="checkbox" name="vehicle" value="Car">Remeber Me</span>
+		<button value="login">login Now</button>
+		<h4><a href="#">Forgot Password?</a> <span><a href="#">Sign Up Now</a></span></h4>
+	</div>
+</div>
+
+<div class="head-top-section head-login">
+	<div class="container">
+		<div class="top-bar">
+			<div class="language-input">
+				<select>
+					<option>EN</option>
+					<option>PB</option>
+					<option>EUR</option>
+				</select>
+				<select>
+					<option>EUR</option>
+					<option>EN</option>
+					<option>PB</option>
+				</select>
+				<p>NEED HELP?! CONTACT <a href="#">SUPPORT@LOGOTEES.COM</a></p>
+			</div>
+			<div class="login-profile">
+				<a id="profile" href="#">
+					<img src="images/profile.jpg">
+				</a>
+				<ul class="pro-inner">
+					<li><h5>John Doe</h5></li>
+					<li><a href="#">My profile</a></li>
+					<li><a href="#">edit profile</a></li>
+					<li><a href="#">Log Out</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- head-top-section end -->
+
+<div class="header-logo-section">
+	<div class="container">
+		<div class="logo">
+			<a href="#"><img src="images/logo.png"></a>
+		</div>
+		<div class="nav-wrap" >
+			<ul>
+				<li><a href="#">Now</a></li>
+				<li><a href="#">previous  tees</a></li>
+				<li><a href="#">Vote</a></li>
+				<li><a href="#">Submit</a></li>
+			</ul>
+		</div>
+		<div class="nav-sec">
+			<div class="nav-left">
+				<ul>
+					<li><a href="#">Now</a></li>
+					<li><a href="#">previous  tees</a></li>
+				</ul>
+			</div>
+			<div class="nav-right">
+				<ul>
+					<li><a href="#">Vote</a></li>
+					<li><a href="#">submit</a></li>
+				</ul>
+			</div>
+		</div>
+			<div class="cart"><a href="#"><img src="images/cart-icon.png"><h5>0</h5></a></div>
+	</div>
+</div>
+<!-- header-logo-section end -->
+
+
+
+
+<script src="js/jquery.js"></script>
+<!-- <script src="js/bootstrap.min.js"></script> -->
+<script src="js/jquery.meanmenu.min.js"></script>
+<script src="js/jquery.countdownTimer.js"></script>
+<script type="text/javascript">
+  	 $(function(){
+
+  	 			jQuery('.nav-wrap').meanmenu();
+
+               
+$("#profile").click(function(){
+    $(".pro-inner").toggle();
+    return false;
+});
+
+$('body').click(function()
+{
+	 $('.pro-inner').hide();
+	 return false;
+});
+        
+
+            });
+  	 
+  	 
+
+
+</script>
+</body>
+</html>
